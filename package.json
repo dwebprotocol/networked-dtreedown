@@ -1,33 +1,33 @@
 {
-  "name": "networked-hyperbeedown",
-  "version": "1.0.1",
-  "description": "LevelDB-compatible module for loading p2p databases using hyperbee and hyperswarm",
+  "name": "@dtree/downloadtree-networked",
+  "version": "1.0.0",
+  "description": "LevelDB-compatible module for loading P2P databases using dWebTree and dSwarm.",
   "main": "index.js",
   "scripts": {
     "test": "standard --fix && node test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RangerMauve/networked-hyperbeedown.git"
+    "url": "git+https://github.com/dwebprotocol/loaddb.git"
   },
   "keywords": [
-    "hyperbee",
+    "dwebtree",
     "level",
-    "levedb",
+    "leveldb",
     "p2p",
     "database",
     "db"
   ],
-  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/RangerMauve/networked-hyperbeedown/issues"
+    "url": "https://github.com/dwebprotocol/loaddb/issues"
   },
-  "homepage": "https://github.com/RangerMauve/networked-hyperbeedown#readme",
+  "homepage": "https://dwebx.org",
   "dependencies": {
-    "hyper-sdk": "^3.0.3",
-    "hyperbee": "^1.3.0",
-    "hyperbeedown": "^2.0.1"
+    "dweb-sdk": "^1.0.0",
+    "dwebtree": "^1.0.0",
+    "@dtree/downloadtree": "^1.0.0"
   },
   "devDependencies": {
     "levelup": "^4.4.0",
